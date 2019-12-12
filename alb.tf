@@ -5,7 +5,7 @@ resource "aws_lb" "mainALB"{
     load_balancer_type = "application"
     security_groups = ["${aws_security_group.ALB-SG.id}"]
     subnets = ["${aws_subnet.ChaosGears-Public-1a.id}", "${aws_subnet.ChaosGears-Public-1b.id}"]
-    enable_deletion_protection = true
+    enable_deletion_protection = false
         
 }
 
