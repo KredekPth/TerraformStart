@@ -12,3 +12,6 @@ Before you start using :
  - Inside this directory type : 
     - terraform init
     - terraform apply
+
+ Finish :
+ - terraform destroy  
